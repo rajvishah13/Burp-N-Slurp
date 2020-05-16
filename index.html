@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://kit.fontawesome.com/5e11a03c7d.js" crossorigin="anonymous"></script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>Restaurant Tracker</title>
+ <style>
+ </style>
+</head>
+
+<body>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+    <img src="img/img.JPG" class="d-block mx-auto" alt="">
+    <div class="feedback alert alert-danger text-center text-capitalize">Please enter a city.</div>
+    <form id="searchForm" class="my-4">
+     <!-- form group -->
+     <div class="form-group my-3">
+      <select class="custom-select text-capitalize" id="searchCategory">
+
+
+      </select>
+     </div>
+     <!-- end of form group -->
+
+     <!-- input group -->
+     <div class="input-group">
+      <input type="text" class="form-control text-capitalize" id="searchCity" placeholder="enter city....">
+      <div class="input-group-append">
+       <button type="submit" class="btn redBtn text-capitalize">Get me Restaurants!</button>
+      </div>
+     </div>
+     <!-- input group -->
+
+
+    </form>
+
+    <img src="img/loader.gif" class="loader" alt="">
+   </div>
+  </div>
+ </div>
+ 
+ <!-- restaurant section -->
+
+ <section class="py-5">
+  <div class="container">
+   <div class="row" id="restaurant-list">
+    </div>
+   </div>
+ </section>
+
+ <div class = "wrapper">
+  <h1> Why to use Burp N Slurp? </h1>
+
+  <div class = "team">    
+      <div class="member">
+          <div class="imgs">
+              <img src="img/why1.jpg" alt="Quality Assurance">
+          </div>
+          <h3> <strong> Quality Assurance </strong> </h3> 
+          <p>Ranging with a wide variety, we offer the best quality products ensured regularly. Good quality and our customer safety comes first </p>
+      </div>
+      <div class="member">
+          <div class="imgs">
+              <img src="img/why2.jpg" alt="On time guarantee">
+          </div>
+          <h3> <strong> On time guarantee </strong> </h3>
+          <p>We ensure that our delivery services work round the clock to get your products to reach you. You can get real-time alerts and helplines for your orders </p>
+      </div>
+      <div class="member">
+          <div class="imgs">
+              <img src="img/why3.jpg" alt="Safe delivery">
+          </div>
+          <h3> <strong> Safe delivery </strong></h3> 
+          <p>The delivery services ensure and take measures towards keeping your product safe and sound. Our helpline may be contacted for any issues </p>
+      </div>
+  </div>
+</div>
+
+<!-- Page Footer-->
+<div class = "footer">
+  <div class="footer-content">
+      <div class = "footer-section about">
+          <h1 class = "logo-text"> Burp <span> N </span> Slurp </h1>
+          <p>
+              Zomato is an online food delivery service and a platform service aiming to deliver food with one click.
+          </p>
+          <div class = "contact">
+              <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+              <span><i class="fas fa-envelope"></i> &nbsp; info@burpnslurp.com</span>
+          </div>
+          <div class="socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+      <div class = "footer-section links">
+          <h1> Quick Links</h1>
+          <br>
+          <ul>
+              <a href="#"><li>Careers</li></a>
+              <a href="#"><li>Teams</li></a>
+              <a href="#"><li>Mentors</li></a>
+              <a href="#"><li>Gallery</li></a>
+              <a href="#"><li>Terms and Conditions</li></a>
+          </ul>
+      </div>
+
+      <div class = "footer-section contact-form">
+          <h1>Contact us</h1>
+          <br>
+          <form action="index.html" method = "post">
+              <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+              <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+              <button type="submit" class="btn btn-big contact-btn">
+                  <i class="fas fa-envelope"></i>
+                  Send
+              </button>
+          </form>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      &copy; burpnslurp.com | Designed by Rajvi Shah
+  </div>
+</div>
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+
+</body>
+
+</html>
